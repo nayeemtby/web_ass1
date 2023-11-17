@@ -13,3 +13,21 @@ nav{
 body{
     background-color:  #FAFAFA;
 }
+
+.cat-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 128px;
+    border-radius: 16px;
+    background-color: #EDEDED;
+    text-align: center;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
