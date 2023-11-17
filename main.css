@@ -9,3 +9,7 @@ nav{
 .carousel-indicators button{
     background-color: brown !important;
 }
+
+body{
+    background-color:  #FAFAFA;
+}
