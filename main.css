@@ -1,20 +1,21 @@
-nav{
+nav {
     background-color: #1A187A;
 }
 
-.carousel-indicators button.active{
+.carousel-indicators button.active {
     background-color: brown;
 
 }
-.carousel-indicators button{
+
+.carousel-indicators button {
     background-color: brown !important;
 }
 
-body{
-    background-color:  #FAFAFA;
+body {
+    background-color: #FAFAFA;
 }
 
-.cat-card{
+.cat-card {
     position: relative;
     display: flex;
     justify-content: center;
@@ -30,4 +31,30 @@ body{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+}
+
+.stat{
+    color: #8B8B8B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.stat.sel{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.stat-card{
+    background-color: #F6F6F6;
+    padding: 26px 18px;
+    width: 268px;
+    border-radius: 12px;
+}
+
+.txt-stroke{
+    color: black;
+    -webkit-text-fill-color: #F6F6F6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #AAAAAA;
+}
