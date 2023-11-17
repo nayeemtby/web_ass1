@@ -1,3 +1,11 @@
 nav{
     background-color: #1A187A;
 }
+
+.carousel-indicators button.active{
+    background-color: brown;
+
+}
+.carousel-indicators button{
+    background-color: brown !important;
+}
