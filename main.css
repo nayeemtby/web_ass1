@@ -33,28 +33,68 @@ body {
     transform: translateY(-50%);
 }
 
-.stat{
+.stat {
     color: #8B8B8B;
     font-size: 18px;
     font-weight: 500;
 }
 
-.stat.sel{
+.stat.sel {
     color: black;
     text-decoration: underline;
     text-underline-offset: 6px;
 }
 
-.stat-card{
+.stat-card {
     background-color: #F6F6F6;
     padding: 26px 18px;
     width: 268px;
     border-radius: 12px;
 }
 
-.txt-stroke{
+.txt-stroke {
     color: black;
     -webkit-text-fill-color: #F6F6F6;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #AAAAAA;
+}
+
+#bot-ban1 {
+    width: 75%;
+    height: auto;
+    transform: translateX(0px) translateY(-20%);
+}
+
+#bot-ban2 {
+    width: 75%;
+    height: auto;
+    transform: translateX(0px) translateY(20%) scaleX(-1);
+}
+
+#bot-ban-cont {
+    overflow: hidden;
+    background-color: #958AD4;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+    #bot-ban1 {
+        height: 342px;
+        width: auto;
+        transform: translateX(-20%) translateY(0px);
+    }
+
+    #bot-ban2 {
+        height: 356px;
+        width: auto;
+        transform: translateX(25%) translateY(0px) scaleX(-1);
+    }
+
+    #bot-ban-cont {
+        background-color: #958AD4;
+        padding-top: 64px;
+        padding-bottom: 46px;
+    }
 }
